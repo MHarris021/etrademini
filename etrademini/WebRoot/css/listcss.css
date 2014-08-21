@@ -1,0 +1,43 @@
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<!--
+a img{border:0}
+.frame{
+ float:left;
+ margin:2px;
+}
+.outer {
+ height: 250px;
+ width: 240px;
+ overflow: hidden;
+ background:#ffffff;
+ position: static !important;
+ position: relative;
+ display: table !important;
+}
+ .moveStyle{
+    background: #ffffdf;
+    height: 250px;
+    width: 240px;
+    overflow: hidden;
+    position: static !important;
+    position: relative;
+    display: table !important;
+    }
+
+#middle { /* for explorer only*/
+ position: absolute;
+ top: 50%;
+}
+#middle[id] {
+ display: table-cell;
+ vertical-align: middle;
+ position: static;
+}
+#inner { /* for explorer only */
+ position: relative;
+ top: -50%;
+ width: 100%;
+ margin: 0 auto;
+ text-align:center
+}
+-->

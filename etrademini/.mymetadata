@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="etrademini"
+  id="myeclipse.1404293129813"
+  context-root="/etrademini"
+  j2ee-spec="5.0"
+  archive="etrademini.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

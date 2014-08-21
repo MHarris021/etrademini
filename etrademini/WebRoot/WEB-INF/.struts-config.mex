@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/goodsAction.do" location="1606,0" dimension="267,116" />
+  <StrutsActivity path="/smallTypeAction.do" location="944,1111" dimension="294,116" />
+  <StrutsActivity path="/bigTypeAction.do" location="110,1428" dimension="278,116" />
+  <StrutsActivity path="/managerAction.do" location="380,794" dimension="284,116" />
+  <StrutsActivity path="/memberAction.do" location="879,427" dimension="282,116" />
+  <StrutsActivity path="/afficheAction.do" location="254,1111" dimension="270,116" />
+  <StrutsActivity path="/linkAction.do" location="1062,1428" dimension="248,116" />
+  <StrutsActivity path="/orderAction.do" location="645,1428" dimension="262,116" />
+  <StrutsActivity path="/bg-goodInsert.jsp" location="0,326" dimension="175,56" />
+  <StrutsActivity path="/fg-selectBigGoods.jsp" location="275,326" dimension="203,56" />
+  <StrutsActivity path="/bg-goodSelectSmall.jsp" location="578,326" dimension="218,56" />
+  <StrutsActivity path="/bg-goodSelectBig.jsp" location="896,326" dimension="202,56" />
+  <StrutsActivity path="/fg-goodSelectOne.jsp" location="1198,326" dimension="204,56" />
+  <StrutsActivity path="/bg-goodSelect.jsp" location="1502,326" dimension="179,56" />
+  <StrutsActivity path="/fg-selectNewGoods.jsp" location="1781,326" dimension="213,56" />
+  <StrutsActivity path="/bg-goodsResult.jsp" location="2094,326" dimension="186,56" />
+  <StrutsActivity path="/fg-selectFreeGoods.jsp" location="2380,326" dimension="212,56" />
+  <StrutsActivity path="/bg-goodsFreePirce.jsp" location="2692,326" dimension="209,56" />
+  <StrutsActivity path="/bg-goodSelectContent.jsp" location="3001,326" dimension="238,56" />
+  <StrutsActivity path="/bg-goodsMarkSelect.jsp" location="3339,326" dimension="223,56" />
+  <StrutsActivity path="/bg-smallTypeSelect.jsp" location="829,1327" dimension="212,56" />
+  <StrutsActivity path="/bg-smallTypeResult.jsp" location="1141,1327" dimension="212,56" />
+  <StrutsActivity path="/bg-bigTypeResult.jsp" location="0,1644" dimension="199,56" />
+  <StrutsActivity path="/bg-bigTypeSelect.jsp" location="299,1644" dimension="199,56" />
+  <StrutsActivity path="/bg-landResult.jsp" location="0,1010" dimension="170,56" />
+  <StrutsActivity path="/bg-managerSelect.jsp" location="270,1010" dimension="203,56" />
+  <StrutsActivity path="/bg-managerInsert.jsp" location="573,1010" dimension="199,56" />
+  <StrutsActivity path="/bg-land.jsp" location="872,1010" dimension="125,56" />
+  <StrutsActivity path="/bg-resultMember.jsp" location="0,693" dimension="198,56" />
+  <StrutsActivity path="/regok.jsp" location="297,693" dimension="111,56" />
+  <StrutsActivity path="/fg-updateMember.jsp" location="508,693" dimension="204,56" />
+  <StrutsActivity path="/regerror.jsp" location="812,693" dimension="130,56" />
+  <StrutsActivity path="/fg-checkMemberResult.jsp" location="1043,693" dimension="239,56" />
+  <StrutsActivity path="/bg-selectMember.jsp" location="1382,693" dimension="200,56" />
+  <StrutsActivity path="/bg-memberSuccess.jsp" location="1682,693" dimension="213,56" />
+  <StrutsActivity path="/bg-selectContent.jsp" location="1995,693" dimension="196,56" />
+  <StrutsActivity path="/bg-afficheUpdate.jsp" location="0,1327" dimension="196,56" />
+  <StrutsActivity path="/bg-afficheSelect.jsp" location="296,1327" dimension="187,56" />
+  <StrutsActivity path="/bg-afficheContent.jsp" location="583,1327" dimension="201,56" />
+  <StrutsActivity path="/bg-linkSelect.jsp" location="1104,1644" dimension="164,56" />
+  <StrutsActivity path="/bg-orderSelect.jsp" location="543,1644" dimension="180,56" />
+  <StrutsActivity path="/bg-orderContent.jsp" location="823,1644" dimension="194,56" />
+  <StrutsTransition id="/smallTypeAction.do,smallTypeOperation,/bg-smallTypeResult.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1164,1227" />
+      <AbsolutePoint location="1164,1277" />
+      <AbsolutePoint location="1247,1277" />
+      <AbsolutePoint location="1247,1327" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/memberAction.do,selectOneMember,/bg-selectContent.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1143,543" />
+      <AbsolutePoint location="1143,573" />
+      <AbsolutePoint location="2093,573" />
+      <AbsolutePoint location="2093,693" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/goodsAction.do,goodSelectFreeHead,/fg-selectFreeGoods.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1795,116" />
+      <AbsolutePoint location="1795,236" />
+      <AbsolutePoint location="2486,236" />
+      <AbsolutePoint location="2486,326" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/goodsAction.do,goodSelect,/bg-goodSelect.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1728,116" />
+      <AbsolutePoint location="1728,296" />
+      <AbsolutePoint location="1591,296" />
+      <AbsolutePoint location="1591,326" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bigTypeAction.do,resultBigType,/bg-bigTypeResult.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="179,1544" />
+      <AbsolutePoint location="179,1594" />
+      <AbsolutePoint location="99,1594" />
+      <AbsolutePoint location="99,1644" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/afficheAction.do,afficheSelect,/bg-afficheSelect.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="389,1227" />
+      <AbsolutePoint location="389,1327" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/memberAction.do,deleteMember,/bg-resultMember.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="896,543" />
+      <AbsolutePoint location="896,573" />
+      <AbsolutePoint location="99,573" />
+      <AbsolutePoint location="99,693" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/memberAction.do,regok,/regok.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="932,543" />
+      <AbsolutePoint location="932,603" />
+      <AbsolutePoint location="353,603" />
+      <AbsolutePoint location="353,693" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/orderAction.do,selectOneOrder,/bg-orderContent.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="842,1544" />
+      <AbsolutePoint location="842,1594" />
+      <AbsolutePoint location="920,1594" />
+      <AbsolutePoint location="920,1644" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/goodsAction.do,selectContent,/bg-goodSelectContent.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1839,116" />
+      <AbsolutePoint location="1839,176" />
+      <AbsolutePoint location="3120,176" />
+      <AbsolutePoint location="3120,326" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/afficheAction.do,afficheSelectOne,/bg-afficheUpdate.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="299,1227" />
+      <AbsolutePoint location="299,1277" />
+      <AbsolutePoint location="98,1277" />
+      <AbsolutePoint location="98,1327" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/goodsAction.do,goodSelectSmall,/bg-goodSelectSmall.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1661,116" />
+      <AbsolutePoint location="1661,206" />
+      <AbsolutePoint location="687,206" />
+      <AbsolutePoint location="687,326" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/managerAction.do,checkResult,/bg-landResult.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="415,910" />
+      <AbsolutePoint location="415,945" />
+      <AbsolutePoint location="85,945" />
+      <AbsolutePoint location="85,1010" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/goodsAction.do,goodSelectBigHead,/fg-selectBigGoods.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1639,116" />
+      <AbsolutePoint location="1639,176" />
+      <AbsolutePoint location="376,176" />
+      <AbsolutePoint location="376,326" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/memberAction.do,checkMember,/fg-checkMemberResult.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1037,543" />
+      <AbsolutePoint location="1037,663" />
+      <AbsolutePoint location="1162,663" />
+      <AbsolutePoint location="1162,693" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/goodsAction.do,managerFreePirce,/bg-goodsFreePirce.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1817,116" />
+      <AbsolutePoint location="1817,206" />
+      <AbsolutePoint location="2796,206" />
+      <AbsolutePoint location="2796,326" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/goodsAction.do,goodForward,/bg-goodInsert.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1617,116" />
+      <AbsolutePoint location="1617,146" />
+      <AbsolutePoint location="87,146" />
+      <AbsolutePoint location="87,326" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/managerAction.do,managerInsert,/bg-managerInsert.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="557,910" />
+      <AbsolutePoint location="557,975" />
+      <AbsolutePoint location="672,975" />
+      <AbsolutePoint location="672,1010" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/linkAction.do,linkSelect,/bg-linkSelect.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1186,1544" />
+      <AbsolutePoint location="1186,1644" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/managerAction.do,managerUpdatePassword,/bg-land.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="628,910" />
+      <AbsolutePoint location="628,945" />
+      <AbsolutePoint location="934,945" />
+      <AbsolutePoint location="934,1010" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/goodsAction.do,goodSelectMark,/bg-goodsMarkSelect.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1861,116" />
+      <AbsolutePoint location="1861,146" />
+      <AbsolutePoint location="3450,146" />
+      <AbsolutePoint location="3450,326" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/goodsAction.do,goodSelectNewHead,/fg-selectNewGoods.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1750,116" />
+      <AbsolutePoint location="1750,296" />
+      <AbsolutePoint location="1887,296" />
+      <AbsolutePoint location="1887,326" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/afficheAction.do,afficheContent,/bg-afficheContent.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="479,1227" />
+      <AbsolutePoint location="479,1277" />
+      <AbsolutePoint location="683,1277" />
+      <AbsolutePoint location="683,1327" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/memberAction.do,selectMember,/bg-selectMember.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1073,543" />
+      <AbsolutePoint location="1073,633" />
+      <AbsolutePoint location="1482,633" />
+      <AbsolutePoint location="1482,693" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/memberAction.do,selectOneMemberHead,/fg-updateMember.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="967,543" />
+      <AbsolutePoint location="967,633" />
+      <AbsolutePoint location="610,633" />
+      <AbsolutePoint location="610,693" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/memberAction.do,operationMember,/bg-memberSuccess.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1108,543" />
+      <AbsolutePoint location="1108,603" />
+      <AbsolutePoint location="1788,603" />
+      <AbsolutePoint location="1788,693" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/goodsAction.do,goodSelectBig,/bg-goodSelectBig.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1683,116" />
+      <AbsolutePoint location="1683,236" />
+      <AbsolutePoint location="997,236" />
+      <AbsolutePoint location="997,326" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/managerAction.do,managerSelect,/bg-managerSelect.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="486,910" />
+      <AbsolutePoint location="486,975" />
+      <AbsolutePoint location="371,975" />
+      <AbsolutePoint location="371,1010" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/orderAction.do,selectOrder,/bg-orderSelect.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="711,1544" />
+      <AbsolutePoint location="711,1594" />
+      <AbsolutePoint location="633,1594" />
+      <AbsolutePoint location="633,1644" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/memberAction.do,regerror,/regerror.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1002,543" />
+      <AbsolutePoint location="1002,663" />
+      <AbsolutePoint location="877,663" />
+      <AbsolutePoint location="877,693" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/smallTypeAction.do,smallTypeSelect,/bg-smallTypeSelect.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1017,1227" />
+      <AbsolutePoint location="1017,1277" />
+      <AbsolutePoint location="935,1277" />
+      <AbsolutePoint location="935,1327" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/goodsAction.do,goodSelectOneHead,/fg-goodSelectOne.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1706,116" />
+      <AbsolutePoint location="1706,266" />
+      <AbsolutePoint location="1300,266" />
+      <AbsolutePoint location="1300,326" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/bigTypeAction.do,bigTypeSelect,/bg-bigTypeSelect.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="318,1544" />
+      <AbsolutePoint location="318,1594" />
+      <AbsolutePoint location="398,1594" />
+      <AbsolutePoint location="398,1644" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/goodsAction.do,goodsOperation,/bg-goodsResult.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1772,116" />
+      <AbsolutePoint location="1772,266" />
+      <AbsolutePoint location="2187,266" />
+      <AbsolutePoint location="2187,326" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+
